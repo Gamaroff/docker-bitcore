@@ -1,0 +1,22 @@
+{
+  "datadir": "./data",
+  "network": "livenet",
+  "port": 80,
+  "services": [
+    "address",
+    "bitcoind",
+    "db",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "insight-ui": {
+      "routePrefix": "",
+      "apiPrefix": "api"
+    },
+    "insight-api": {
+      "routePrefix": "api"
+    }
+  }
+}
