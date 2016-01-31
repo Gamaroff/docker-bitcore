@@ -13,7 +13,7 @@ RUN useradd -r -m bitcore
 
 RUN bitcore create ${project}
 
-COPY bitcoin.conf ${project}/data
+COPY bitcoin.conf ${project}/data/
 COPY bitcored.service /lib/systemd/system/
 COPY package.json ${project}/
 
