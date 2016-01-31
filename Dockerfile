@@ -10,7 +10,6 @@ ENV project ~/coinspace
 RUN npm install -g bitcore
 
 RUN useradd -r -m bitcore
-USER bitcore
 
 RUN bitcore create ${project}
 
