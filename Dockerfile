@@ -21,4 +21,4 @@ WORKDIR ${project}
 
 RUN npm install
 
-CMD [ "systemctrl", "start", "bitcored" ]
+CMD ["/usr/local/bin/bitcored"]
