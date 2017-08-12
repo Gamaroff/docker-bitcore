@@ -3,9 +3,9 @@
 #
 
 FROM node:4.2.6
-MAINTAINER Eugene Krevenets "ievgenii.krevenets@gmail.com"
+MAINTAINER Lorien Gamaroff "lorien@gamaroff.org"
 
-ENV project ~/coinspace
+ENV project ~/centbee
 
 RUN npm install -g bitcore
 
