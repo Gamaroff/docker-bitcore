@@ -1,6 +1,6 @@
 {
   "datadir": "./data",
-  "network": "livenet",
+  "network": "testnet",
   "port": 80,
   "services": [
     "address",
