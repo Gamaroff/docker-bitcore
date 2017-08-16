@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 Environment="PATH=$PATH:/home/bitcore/.nvm/versions/node/v4.2.6/bin"
-WorkingDirectory=/home/bitcore/centbee/
+WorkingDirectory=/home/bitcore/coinspace/
 ExecStart=/root/.nvm/versions/node/v4.2.6/bin/node /usr/lib/node_modules/bitcore/bin/bitcored
 ExecReload=/bin/kill -2 $MAINPID
 KillMode=process
